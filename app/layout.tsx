@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     title: "Eric Mwangi Kinyua | Web Developer & Designer",
     description: "Portfolio showcasing modern web development projects and skills",
     type: "website",
+    locale: "en",
+    siteName: "Eric Mwangi Kinyua | Web Developer & Designer",
+    url: "https://ericmwangi.dev",
+    images: {
+      url: "https://ericmwangi.dev/og-image.png",
+      width: 1200,
+      height: 630,
+    },
   },
 };
 

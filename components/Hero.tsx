@@ -124,7 +124,7 @@ const Hero = () => {
                             transition={{ duration: 0.8, delay: 0.4 }}
                             className="text-text-secondary text-lg md:text-xl max-w-xl leading-relaxed"
                         >
-                            I'm a versatile web developer passionate about building intuitive, modern digital experiences. With strong expertise in React, Laravel, and Tailwind, I craft scalable solutions that balance functionality with design.
+                            I'm a versatile web developer passionate about building intuitive, modern digital experiences. With strong expertise in React, Next.js, Laravel, and Tailwind, I craft scalable solutions that balance functionality with design.
                         </motion.p>
 
                         <motion.div
@@ -168,7 +168,7 @@ const Hero = () => {
                             role="list"
                             aria-label="Technology stack"
                         >
-                            {['React', 'Next.js', 'Tailwind', 'AI/ML'].map((tech, index) => (
+                            {['React', 'Next.js', 'Tailwind', 'UI/UX'].map((tech, index) => (
                                 <motion.span
                                     key={tech}
                                     initial={{ opacity: 0, scale: 0.8 }}
