@@ -4,10 +4,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-    { name: 'React', level: 90 },
-    { name: 'Next.js', level: 88 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'Tailwind CSS', level: 95 },
+    { name: 'HTML', level: 95 },
+    { name: 'CSS', level: 95 },
+    { name: 'JavaScript', level: 90 },
+    { name: 'React', level: 85 },
+    { name: 'Next.js', level: 80 },
+    { name: 'PHP', level: 80 },
+    { name: 'TypeScript', level: 80 },
+    { name: 'Tailwind CSS', level: 80 },
     { name: 'UI/UX Design', level: 80 },
     { name: 'AI Integration', level: 75 },
 ];
