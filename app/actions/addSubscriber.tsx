@@ -1,7 +1,8 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
-import prisma from '../../lib/db';
+import db from '../../lib/db';
+import { subscribers } from '../../lib/schema';
 
 export async function addSubscriber(formData: FormData) {
     const email = formData.get('email')?.toString().trim();
@@ -13,12 +14,10 @@ export async function addSubscriber(formData: FormData) {
     }
 
     try {
-        await prisma.subscriber.create({
-            data: {
-                email,
-                name,
-                message,
-            },
+        await db.insert(subscribers).values({
+            email,
+            name,
+            message,
         });
         revalidatePath('/');
         return { success: true };
