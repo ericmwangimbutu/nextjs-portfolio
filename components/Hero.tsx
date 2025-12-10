@@ -31,7 +31,6 @@ const Hero = () => {
             className="min-h-screen flex items-center justify-center relative overflow-hidden"
             aria-label="Hero section"
         >
-            {/* Conic Gradient Pointer Background */}
             <div className="absolute inset-0 bg-background transition-colors duration-300">
                 {mounted && (
                     <motion.div
@@ -42,7 +41,6 @@ const Hero = () => {
                     />
                 )}
 
-                {/* Grid Pattern */}
                 <div
                     className="absolute inset-0 opacity-[0.03]"
                     aria-hidden="true"
@@ -53,7 +51,6 @@ const Hero = () => {
                     }}
                 />
 
-                {/* Animated Gradient Orbs */}
                 <motion.div
                     className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[120px]"
                     aria-hidden="true"
@@ -85,10 +82,8 @@ const Hero = () => {
                 />
             </div>
 
-            {/* Content Container */}
             <div className="relative z-10 container mx-auto px-4 md:px-20">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    {/* Text Content */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -159,7 +154,6 @@ const Hero = () => {
                             </motion.button>
                         </motion.div>
 
-                        {/* Tech Stack Pills */}
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -183,7 +177,6 @@ const Hero = () => {
                         </motion.div>
                     </motion.div>
 
-                    {/* Hero Image */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -202,21 +195,18 @@ const Hero = () => {
                             }}
                             className="relative"
                         >
-                            {/* Glow Effect */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 via-secondary/30 to-accent/30 rounded-full blur-3xl scale-110" />
 
-                            {/* Image Container */}
                             <div className="relative z-10 glass-card rounded-3xl p-4 transform rotate-3 transition-transform hover:rotate-0 duration-500">
                                 <Image
-                                    src="/assets/hero_illustration.png"
-                                    alt="Abstract Tech Illustration"
+                                    src="/assets/hero_image.png"
+                                    alt="eric mwangi"
                                     width={500}
                                     height={500}
                                     className="w-full h-auto object-contain rounded-2xl"
                                     priority
                                 />
 
-                                {/* Decorative elements */}
                                 <div className="absolute -top-4 -right-4 w-12 h-12 bg-accent rounded-full blur-xl opacity-60"></div>
                                 <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary rounded-full blur-xl opacity-60"></div>
                             </div>
@@ -225,7 +215,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Scroll Indicator */}
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
