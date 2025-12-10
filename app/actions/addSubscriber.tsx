@@ -6,7 +6,7 @@ import { PrismaClient } from '@prisma/client/extension';
 const prisma = new PrismaClient();
 
 
-export async function addSubscriber(formData) {
+export async function addSubscriber(formData: FormData) {
     const email = formData.get('email')?.toString().trim();
     const name = formData.get('name')?.toString().trim();
     const message = formData.get('message')?.toString().trim();
