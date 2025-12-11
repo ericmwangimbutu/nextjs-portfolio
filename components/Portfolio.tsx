@@ -35,7 +35,7 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <section className="py-20">
+        <section className="py-20" id="projects">
             <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
             <div className="grid md:grid-cols-3 gap-8">
                 {projects.map((project, index) => (

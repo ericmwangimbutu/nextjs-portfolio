@@ -128,10 +128,11 @@ const Hero = () => {
                             transition={{ duration: 0.8, delay: 0.5 }}
                             className="flex flex-wrap gap-4 pt-4"
                         >
-                            <motion.button
+                            <motion.a
+                                href="#projects"
                                 whileHover={{ scale: 1.05, boxShadow: "0 0 25px var(--primary)" }}
                                 whileTap={{ scale: 0.95 }}
-                                className="group relative px-8 py-4 bg-primary rounded-xl font-semibold text-white overflow-hidden shadow-lg shadow-primary/30"
+                                className="group relative px-8 py-4 bg-primary rounded-xl font-semibold text-white overflow-hidden shadow-lg shadow-primary/30 inline-block cursor-pointer"
                                 aria-label="View my projects"
                             >
                                 <span className="relative z-10">View Projects</span>
@@ -142,16 +143,17 @@ const Hero = () => {
                                     transition={{ duration: 0.3 }}
                                     aria-hidden="true"
                                 />
-                            </motion.button>
+                            </motion.a>
 
-                            <motion.button
+                            <motion.a
+                                href="#contact"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="px-8 py-4 border border-border-color bg-surface/50 backdrop-blur-sm rounded-xl font-semibold text-text-primary hover:border-primary/50 hover:bg-surface transition-all shadow-lg shadow-black/5"
+                                className="px-8 py-4 border border-border-color bg-surface/50 backdrop-blur-sm rounded-xl font-semibold text-text-primary hover:border-primary/50 hover:bg-surface transition-all shadow-lg shadow-black/5 inline-block cursor-pointer"
                                 aria-label="Contact me"
                             >
                                 Contact Me
-                            </motion.button>
+                            </motion.a>
                         </motion.div>
 
                         <motion.div
