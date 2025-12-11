@@ -16,7 +16,6 @@ const Contact = () => {
         e.preventDefault();
         setStatus('sending');
 
-        // TODO: Implement actual form submission logic
         // For now, just simulate a successful submission
         setTimeout(() => {
             setStatus('success');

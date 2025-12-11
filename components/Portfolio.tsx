@@ -31,22 +31,6 @@ const projects = [
         liveDemo: 'https://ericmwangi.dev',
         sourceCode: 'https://github.com/ericmwangimbutu/nextjs-portfolio',
     },
-    {
-        title: 'Business Website',
-        description: 'A modern business website with React and PHP/laravel.',
-        tags: ['React', 'PHP', 'Laravel'],
-        image: '/inner-beauty.png',
-        liveDemo: 'https://inner-beauty.beauty',
-        sourceCode: 'https://github.com/ericmwangimbutu/inner-beauty',
-    },
-    {
-        title: 'Business Website',
-        description: 'A modern business website with React and PHP/laravel.',
-        tags: ['React', 'PHP', 'Laravel'],
-        image: '/inner-beauty.png',
-        liveDemo: 'https://inner-beauty.beauty',
-        sourceCode: 'https://github.com/ericmwangimbutu/inner-beauty',
-    },
 ];
 
 const Portfolio = () => {

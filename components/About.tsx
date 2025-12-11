@@ -35,7 +35,7 @@ const About = () => {
                         With a background in Web Development, Design, and IT Support, I bring a versatile skillset to every project. I believe in creating interfaces that are not just functional, but also intuitive and visually stunning.
                     </p>
                     <p className="text-gray-300 text-lg leading-relaxed">
-                        My goal is to leverage modern tools like React, Next.js, Tailwind, and AI assistants to build high-quality software efficiently.
+                        My goal is to leverage modern tools like React, Next.js, and Tailwind to build high-quality software efficiently.
                     </p>
                 </motion.div>
             </div>
