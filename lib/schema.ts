@@ -7,3 +7,12 @@ export const subscribers = pgTable('Subscriber', {
     message: text('message'),
     createdAt: timestamp('createdAt').defaultNow(),
 });
+
+export const contacts = pgTable('Contact', {
+    id: serial('id').primaryKey(),
+    name: text('name').notNull(),
+    email: text('email').notNull(),
+    subject: text('subject'),
+    message: text('message').notNull(),
+    createdAt: timestamp('createdAt').defaultNow(),
+});
