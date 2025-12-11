@@ -11,7 +11,7 @@ const projects = [
         title: 'E-Commerce Platform',
         description: 'A full-stack e-commerce solution built with Vue.js and Python/Django.',
         tags: ['Vue.js', 'Python', 'Django'],
-        image: '/ecommerce-platform.png',
+        image: '/ecommerce-fashion.jpg',
         liveDemo: 'https://alycs-fashion.com',
         sourceCode: 'https://github.com/ericmwangimbutu/alycs-fashion',
     },
